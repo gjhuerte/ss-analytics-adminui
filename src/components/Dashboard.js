@@ -37,7 +37,7 @@ class Dashboard extends Component {
                                         className="text-white bg-blue-500 px-6 py-2 rounded-lg text-xs ml-5 font-medium">
                                         <FontAwesomeIcon
                                             icon={faDownload} />
-                                        Download
+                                        <span className="ml-2">Download</span>
                                     </button>
                                 </div>
                             </div>

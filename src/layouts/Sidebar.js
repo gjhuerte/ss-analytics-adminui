@@ -20,12 +20,12 @@ class Sidebar extends Component {
         return (
             <section 
                 id="sidebar"
-                className="pt-10 pr-20 pl-5 border-r border-gray-300">
+                className="pt-10 pr-20 pl-5 pb-10 border-r border-gray-300">
                 <div className="text-gray-600">
-                    <h3 className="font-bold">MAIN</h3>
+                    <h3 className="font-bold mb-5">MAIN</h3>
 
                     <ul className="flex flex-col">
-                        <li className="my-5">
+                        <li className="my-3">
                             <a 
                                 href="/">
                                 <FontAwesomeIcon
@@ -37,7 +37,7 @@ class Sidebar extends Component {
                                 </span>
                             </a>
                         </li>
-                        <li className="my-5">
+                        <li className="my-3">
                             <a 
                                 href="/">
                                 <FontAwesomeIcon
@@ -49,7 +49,7 @@ class Sidebar extends Component {
                                 </span>
                             </a>
                         </li>
-                        <li className="my-5">
+                        <li className="my-3">
                             <a 
                                 href="/">
                                 <FontAwesomeIcon
@@ -61,7 +61,7 @@ class Sidebar extends Component {
                                 </span>
                             </a>
                         </li>
-                        <li className="my-5">
+                        <li className="my-3">
                             <a 
                                 href="/">
                                 <FontAwesomeIcon
@@ -73,7 +73,7 @@ class Sidebar extends Component {
                                 </span>
                             </a>
                         </li>
-                        <li className="my-5">
+                        <li className="my-3">
                             <a 
                                 className="flex flex-row justify-between"
                                 href="/">
@@ -92,7 +92,7 @@ class Sidebar extends Component {
                                     icon={faCaretDown} />
                             </a>
                         </li>
-                        <li className="my-5">
+                        <li className="my-3">
                             <a 
                                 href="/">
                                 <FontAwesomeIcon
@@ -108,10 +108,10 @@ class Sidebar extends Component {
                 </div>
             
                 <div className="text-gray-600 mt-5">
-                    <h3 className="font-bold">Help</h3>
+                    <h3 className="font-bold mb-5">Help</h3>
 
                     <ul className="flex flex-col">
-                        <li className="my-5">
+                        <li className="my-3">
                             <a 
                                 href="/">
                                 <FontAwesomeIcon
@@ -123,7 +123,7 @@ class Sidebar extends Component {
                                 </span>
                             </a>
                         </li>
-                        <li className="my-5">
+                        <li className="my-3">
                             <a 
                                 href="/">
                                 <FontAwesomeIcon
@@ -135,7 +135,7 @@ class Sidebar extends Component {
                                 </span>
                             </a>
                         </li>
-                        <li className="my-5">
+                        <li className="my-3">
                             <a 
                                 href="/">
                                 <FontAwesomeIcon
@@ -147,7 +147,7 @@ class Sidebar extends Component {
                                 </span>
                             </a>
                         </li>
-                        <li className="my-5">
+                        <li className="my-3">
                             <a 
                                 href="/">
                                 <FontAwesomeIcon
