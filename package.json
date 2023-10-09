@@ -1,5 +1,6 @@
 {
   "name": "ss-analytics-adminui",
+  "homepage": "/ss-analytics-adminui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
